@@ -449,9 +449,6 @@ public class stockController {
     	}
 	
 	
-	
-	
-	
 	// 재고 팝업
 	@RequestMapping(value = "/stockPopup", method = RequestMethod.GET)
 	public void stockPopup(@RequestParam("code") String code, Model model, HttpServletRequest request) throws Exception {
@@ -503,11 +500,11 @@ public class stockController {
 		return GraphMap;
 		
 	} //stockGraph
-	
-	
 
+	
     // ====================================== 재고 - 끝 ====================================== //
-    	
+    
+	
     // ====================================== 출고 - 시작 ====================================== //
     	
     	
